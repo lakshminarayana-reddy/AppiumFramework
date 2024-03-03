@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Scanner_Technology">
+        <parameter name="platformType" value="AndroidDevice"/>
+        <parameter name="deviceName" value="23256D808F"/>
+        <classes>
+            <class name="tests.LoginFunctionalities"/>
+        </classes>
+    </test>
+</suite>
